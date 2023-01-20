@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content=" IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> LEE University</title>
+
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj"+3OJUSyExlq6GSYGSHk7tPXikynS7ogEvDej/m4= " crossorigin="annonymos"></script> 
+
+</head>
+
+<body>
+
+     <!--Navigation-->
+     <nav>
+         <img src="images/logo.jpg" alt="">
+         <div class="navigation">
+             <ul>
+                 <i id="menu-close" class="fas fa-times"></i>
+                 <li> <a href="index.html">Home</a></li>
+                 <li> <a class="active" href="about.html">About</a></li>
+                 <li> <a href="blog.html">Blog</a></li>
+                 <li> <a href="course.html">Courses</a></li>
+                 <li> <a href="contact.html">Contact</a></li>
+             </ul>
+             <img id ="menu-btn"  src="images/menu.png" alt="">
+         </div>
+     </nav>
+
+
+<!-- Home -->
+ <section id="about-home"> 
+     <h2> About LEE University</h2>
+    
+ </section>
+
+ <section id="about-container">
+    <div class="about-img">
+        <img src="images/a.jpg" alt="">
+       
+        
+
+    </div> 
+    <div class="about-text"> 
+        <h2> Welcome to LEE, Enhance your skills with best Online Courses</h2>
+        <p> You can start and finish one of these popular courses in under a day! Check out the list below.</p>
+        <div class="about-fe">
+            <img src="images/a3.jpg" alt="">
+            <div class="fe-text"> 
+                <h5> 300+ Courses</h5>
+                <p> You can start and finish one of these popular courses in under
+                    our site</p>
+            </div>
+        
+    </div>
+
+    <div class="about-fe">
+        <img src="images/a4.jpg" alt="">
+        <div class="fe-text"> 
+            <h5> Lifetime Access</h5>
+            <p> Courses that we offer will help you for lifetime!
+                our site </p>
+        </div>
+    </div>
+</div>
+
+</section>
+
+ <!-- features -->
+ 
+ <section id="features">
+     <h1>Awesome Features </h1>
+     <p> We empower students to achieve their full potential</p>
+     <div class="fea-base">
+     <div class="fea-box">
+         <i class="fas fa-graduation-cap"> </i> <!-- logo e graduation cap-->
+         <h3> Scholarship Facility</h3>
+         <p> These scholarships will be based on the applicant's academic merit and finnancial need. </p>
+
+      </div>
+      <div class="fea-box">
+        <i class="fas fa-file-certificate"> </i>
+        <h3> Dell Online Course</h3>
+        <p> Students get the best online learning experience. We grant no-limit access to the platform.</p>
+
+     </div>
+     <div class="fea-box">
+        <i class="fas fa-award"> </i>
+        <h3> Global certification</h3>
+        <p> Benefit from top-edge academic standards in teaching and research, high-performing programs with a strong 
+            "digital" focus in all disciplines. </p>
+
+     </div>
+    </div>
+
+ </section>
+
+ 
+ 
+ <section id="trust">
+    <h1> Trusted By </h1>
+     <div class="trust-img">
+        <img src="images/trust1.jpg" alt=""> 
+        <img src="images/trust2.jpg" alt=""> 
+        <img src="images/trust3.jpg" alt=""> 
+        <img src="images/trust4.jpg" alt=""> 
+        <img src="images/trust5.jpg" alt=""> 
+        <img src="images/trust6.jpg" alt=""> 
+    </div> 
+</section>
+
+    <footer> 
+        <div class="footer-col">
+            <h3> Contact</h3>
+            <li> 1120 N Ocoee Street Cleveland </li>
+            <li> +383 (0)38 33 44 55</li>
+            <li>info@leeuniversity.edu</li>
+        </div>
+
+        <div class="footer-col">
+            <h3 > Pages </h3>
+            <li><a href="index.html">Home</a> </li>
+            <li><a href="about.html">About </a> </li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </div>
+
+       <div class="footer-col">
+           <h3> Newsletter</h3>
+           <p> Enter your e-mail below to subscribe to our official newsletter </p>
+           <div class="subscribe">
+               <input type="text" placeholder="Your Email address">
+               <a href="#" class="yellow"> SUBSCRIBE </a>
+           </div>
+       </div>
+       <div class="copyright">
+           <p> © 2023 The President and Fellows of LEE University</p>
+           <div class="pro-links">
+            <i class="fab fa-facebook-f"> </i>
+            <i class="fab fa-instagram"> </i>
+            <i class="fab fa-linkedin-in"> </i>
+        </div>
+       </div>
+   
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function() {
+            $('nav .navigation ul').addClass('active')
+
+        });
+        $('#menu-close').click(function() {
+            $('nav .navigation ul').removeClass('active')
+
+        });
+    
+    </script>
+ 
+
+
+
+</body>
+
+</html>
